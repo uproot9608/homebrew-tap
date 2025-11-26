@@ -11,7 +11,7 @@ class Netbird < Formula
   on_macos do
     on_intel do
       url "https://github.com/netbirdio/netbird/releases/download/v0.58.2/netbird_0.58.2_darwin_amd64.tar.gz", using: CurlDownloadStrategy
-      sha256 "4f30696bddc75d71b529885eef3a429c2fc2f3e1401bfdfeea821125a5fb0dfb"
+      sha256 "37849c338fd66e1000aa7d3f3b017159fe3152534fc1ff40f7b42a9b7f022aff"
 
       def install
         bin.install "netbird"
@@ -19,7 +19,7 @@ class Netbird < Formula
     end
     on_arm do
       url "https://github.com/netbirdio/netbird/releases/download/v0.58.2/netbird_0.58.2_darwin_arm64.tar.gz", using: CurlDownloadStrategy
-      sha256 "b895f3e36f5054324970593409a45cf2a46cbc8da8913327b409d2e722244203"
+      sha256 "bab3a493094a80597c1b1f38c4d00ebcfd2b1cc884b70285a40bb3cb7238e687"
 
       def install
         bin.install "netbird"
